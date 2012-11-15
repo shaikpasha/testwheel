@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>PASHA-PC</Machine>
+    <WindowsUser>pasha</WindowsUser>
+    <SolutionConfiguration>Release|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>43BE6CA5BB29F3B3AFCD73CC598354210BF5426C842A94DA90D97B532A31C223</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>c2b334c7-5e63-4832-a924-a90b69cd513b_1.0.0.0_neutral__afrv3wgzstxsy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>c2b334c7-5e63-4832-a924-a90b69cd513b_afrv3wgzstxsy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>c2b334c7-5e63-4832-a924-a90b69cd513b</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=pasha</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\pasha\Documents\Visual Studio 2012\Projects\testwheel\testwheel\bin\Release\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-11-14T20:31:58.830</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\pasha\Documents\Visual Studio 2012\Projects\testwheel\testwheel\bin\Release\testwheel.exe">
+      <PackagePath>testwheel.exe</PackagePath>
+      <Modified>2012-11-14T20:32:34.572</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pasha\Documents\Visual Studio 2012\Projects\testwheel\testwheel\bin\Release\testwheel.pdb">
+      <PackagePath>testwheel.pdb</PackagePath>
+      <Modified>2012-11-14T20:32:34.548</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pasha\Documents\Visual Studio 2012\Projects\testwheel\testwheel\Assets\seconds.png">
+      <PackagePath>Assets\seconds.png</PackagePath>
+      <Modified>2012-11-14T20:31:11.021</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pasha\Documents\Visual Studio 2012\Projects\testwheel\testwheel\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T17:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pasha\Documents\Visual Studio 2012\Projects\testwheel\testwheel\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T17:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pasha\Documents\Visual Studio 2012\Projects\testwheel\testwheel\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T17:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pasha\Documents\Visual Studio 2012\Projects\testwheel\testwheel\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-19T17:54:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pasha\Documents\Visual Studio 2012\Projects\testwheel\testwheel\bin\Release\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-04-23T21:03:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pasha\Documents\Visual Studio 2012\Projects\testwheel\testwheel\bin\Release\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-11-14T20:32:33.570</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pasha\Documents\Visual Studio 2012\Projects\testwheel\testwheel\bin\Release\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-11-13T23:40:27.801</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\pasha\Documents\Visual Studio 2012\Projects\testwheel\testwheel\bin\Release\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-11-13T23:46:25.849</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

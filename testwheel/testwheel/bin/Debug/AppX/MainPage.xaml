@@ -1,0 +1,39 @@
+﻿<Page
+    x:Class="testwheel.MainPage"
+    IsTabStop="false"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:testwheel"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{StaticResource ApplicationPageBackgroundThemeBrush}">
+        <Grid Height="400" Width="400" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5">
+            <Grid.RenderTransform>
+                <CompositeTransform Rotation="5"/>
+            </Grid.RenderTransform>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Image Height="400" Width="400" Source="ms-appx:///Assets/seconds.png" Stretch="Fill" Grid.ColumnSpan="2" x:Name="seconds_in" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Right">
+                <Image.Clip>
+                    <RectangleGeometry Rect="-200,0,400,400"/>
+                </Image.Clip>
+                <Image.RenderTransform>
+                    <CompositeTransform Rotation="0"/>
+                </Image.RenderTransform>
+            </Image>
+            <Image Height="400" Width="400" Source="ms-appx:///Assets/seconds.png" Stretch="Fill" Grid.ColumnSpan="2" x:Name="seconds_right" Visibility="Visible" RenderTransformOrigin="0.5,0.5" HorizontalAlignment="Left">
+                <Image.Clip>
+                    <RectangleGeometry Rect="200,0,400,400"/>
+                </Image.Clip>
+                <Image.RenderTransform>
+                    <CompositeTransform Rotation="0"/>
+                    </Image.RenderTransform>
+            </Image>
+        </Grid>
+    </Grid>
+</Page>
+
